@@ -109,7 +109,7 @@ make clean
 compileLibBzip(){
 echo "Compiling Bzip"
 cd ~/ffmpeg_sources
-wget "https://drive.google.com/uc?export=download&id=0ByeXzyAcnJYANExGY1dMQW5OVFE"
+wget "http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz"
 tar zxvf bzip2-1.0.6.tar.gz
 cd bzip2-1.0.6
 make 
@@ -120,7 +120,7 @@ sudo make install PREFIX=$HOME
 compileLibPng(){
 echo "Compiling libpng"
 cd ~/ffmpeg_sources
-wget "https://drive.google.com/uc?export=download&id=0ByeXzyAcnJYAc2VyM2NBZHBEWDg"
+wget "http://iweb.dl.sourceforge.net/project/libpng/libpng16/older-releases/1.6.17/libpng-1.6.17.tar.gz"
 tar zxvf libpng-1.6.17.tar.gz
 cd libpng-1.6.17
 CFLAGS="-I$HOME/ffmpeg_build/include" LDFLAGS="-L$HOME/ffmpeg_build/lib -lm" ./configure --prefix="$HOME" --enable-static --disable-shared
@@ -132,7 +132,7 @@ sudo make install
 compileLibOgg(){
 echo "Compiling libogg"
 cd ~/ffmpeg_sources
-wget "https://drive.google.com/uc?export=download&id=0ByeXzyAcnJYAcUc4QWF2MTlJWUU"
+wget "http://downloads.xiph.org/releases/ogg/libogg-1.3.2.tar.gz"
 tar zxvf libogg-1.3.2.tar.gz
 cd libogg-1.3.2
 CFLAGS="-I$HOME/ffmpeg_build/include" LDFLAGS="-L$HOME/ffmpeg_build/lib -lm" ./configure --prefix="$HOME" --enable-static --disable-shared
