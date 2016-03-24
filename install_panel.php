@@ -233,7 +233,7 @@ function GetFOSResources($arch) {
     } else {
         $fos = "fos-streaming_unpack_i686.tar.gz";
     }
-    shell_exec("wget http://198.20.126.212/{$fos} -O /home/fos-streaming/{$fos} > /dev/null");
+    shell_exec("wget http://downloads.sourceforge.net/project/iptv-md/upload/{$fos} -O /home/fos-streaming/{$fos} > /dev/null");
     shell_exec("tar -xzf /home/fos-streaming/{$fos} -C /home/fos-streaming/ > /dev/null");
 }
 
