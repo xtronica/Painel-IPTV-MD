@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>FOS-Streaming panel by Tyfix</title>
+    <title>IPTV-MD</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -48,7 +48,7 @@
             <div class="left_col scroll-view">
 
                 <div class="navbar nav_title" style="border: 0;">
-                    <a href="index.php" class="site_title"> <span><span>FOS-Streaming <small style="font-size: 10px;">by Tyfix</small></span></span></a>
+                    <a href="index.php" class="site_title"> <span><span>IPTV-MD <small style="font-size: 10px;">Moldova</small></span></span></a>
                 </div>
                 <div class="clearfix"></div>
 
@@ -63,18 +63,18 @@
                     <div class="menu_section">
                         <h3>General</h3>
                         <ul class="nav side-menu">
-                            <li><a href="index.php"><i class="fa fa-dashboard"></i> Dashboard </a></li>
-                            <li><a href="streams.php"><i class="fa  fa-upload"></i> Streams </a></li>
-                            <li><a href="activities.php"><i class="fa fa-toggle-right"></i> Activities </a></li>
-                            <li><a href="users.php"><i class="fa fa-users"></i> Users </a></li>
-                            <li><a href="categories.php"><i class="fa fa-list"></i> Categories </a></li>
-                            <li><a href="transcodes.php"><i class="fa fa-reorder"></i> Transcode profiles </a></li>
-                            <li><a href="stream_importer.php"><i class="fa fa-archive"></i> Playlist importer </a></li>
+                            <li><a href="index.php"><i class="fa fa-dashboard"></i> Панель Приборов </a></li>
+                            <li><a href="streams.php"><i class="fa  fa-upload"></i> Потоки </a></li>
+                            <li><a href="activities.php"><i class="fa fa-toggle-right"></i> Активные </a></li>
+                            <li><a href="users.php"><i class="fa fa-users"></i> Пользователи </a></li>
+                            <li><a href="categories.php"><i class="fa fa-list"></i> Категории </a></li>
+                            <li><a href="transcodes.php"><i class="fa fa-reorder"></i> Транскодирования </a></li>
+                            <li><a href="stream_importer.php"><i class="fa fa-archive"></i> Импортер Плэйлиста </a></li>
 
                             <li><a href="admins.php"><i class="fa fa-user"></i> Admin's </a></li>
                             <li><a href="ipblocks.php"><i class="fa fa-exclamation-triangle"></i> Ipblock </a></li>
                             <li><a href="useragentblocks.php"><i class="fa fa-exclamation-triangle"></i> User agent block </a></li>
-                            <li><a href="settings.php"><i class="fa fa-cog"></i> Settings </a></li>
+                            <li><a href="settings.php"><i class="fa fa-cog"></i> Настройки </a></li>
                         </ul>
                     </div>
                     <div class="menu_section">
@@ -136,7 +136,7 @@
             <!-- footer content -->
             <footer>
                 <div class="">
-                    <p class="pull-right">FOS-Streaming by <a href="http://www.tyfix.nl" target="_new">Tyfix</a>
+                    <p class="pull-right">IPTV-MD by <a href="http://www.youtube.com" target="_new">Ionel</a>
 
                     </p>
                 </div>
