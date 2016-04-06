@@ -9,4 +9,3 @@ tar -xJf /home/fos-streaming/ffmpeg-release-64bit-static.tar.xz -C /usr/src/ffmp
 /bin/cp /usr/src/ffmpeg/ffmpeg*/ffprobe /usr/bin/ffprobe
 chmod 755 /usr/bin/ffmpeg
 chmod 755 /usr/bin/ffprobe
-fi
