@@ -23,7 +23,7 @@ chmod 755 db_install.sh > /dev/null
 ./db_install.sh
 if [ ! -f /usr/bin/ffmpeg ]; then
 echo "FOS-Streaming -> FFmpeg and FFprobe installation"
-wget -q https://raw.githubusercontent.com/vaniusha3/IPTV-MD/master/ffmpeg_install.sh -O ffmpeg_install.sh > /dev/null
+wget -q https://raw.githubusercontent.com/vaniusha3/IPTV-MD/master/ffmpeg.sh -O ffmpeg.sh > /dev/null
 chmod 755 ffmpeg_install.sh > /dev/null
 ./ffmpeg_install.sh
 fi
